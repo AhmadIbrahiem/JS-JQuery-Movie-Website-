@@ -1,0 +1,37 @@
+#movies img,
+#movie img {
+  width: 100%;
+  height: auto; /* Ensure images maintain aspect ratio */
+}
+
+#movies .col-md-3 .well {
+  margin-bottom: 20px;
+  height: auto; /* Allow height to adjust based on content */
+}
+
+#movies .col-md-3 .well h4 {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+#movies .col-md-3 .well h5 {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+/* Add media queries for better responsiveness */
+@media (max-width: 768px) {
+  #movies .col-md-3 {
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
+}
+
+@media (max-width: 576px) {
+  #movies .col-md-3 {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+}

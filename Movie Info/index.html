@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Movies Website</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootswatch@5.3.2/dist/solar/bootstrap.min.css"
+    />
+
+    <link rel="stylesheet" href="Css/style.css" />
+  </head>
+  <body>
+    <nav class="navbar navbar-dark bg-dark">
+      <div class="container">
+        <div class="navbar-header">
+          <a
+            href="index.html"
+            class="navbar-brand"
+            style="
+              font-family: 'Arial', sans-serif;
+              font-size: 24px;
+              justify-content: flex-start;
+            "
+            >Movie Website</a
+          >
+        </div>
+      </div>
+    </nav>
+
+    <div class="p-5 mb-4 bg-light rounded-3">
+      <div class="container">
+        <h3 class="text-center">Search For any Movie</h3>
+        <form id="searchForm">
+          <input
+            type="text"
+            id="SearchText"
+            class="form-control"
+            placeholder="Search Movies..."
+          />
+        </form>
+      </div>
+    </div>
+
+    <div class="container">
+      <div
+        id="movies"
+        class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4"
+      ></div>
+    </div>
+
+    <script
+      src="https://code.jquery.com/jquery-3.7.1.min.js"
+      integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios@1.6.7/dist/axios.min.js"></script>
+    <script src="Js/main.js"></script>
+  </body>
+</html>

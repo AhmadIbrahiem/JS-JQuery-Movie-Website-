@@ -1,12 +1,12 @@
 #movies img,
 #movie img {
   width: 100%;
-  height: auto; /* Ensure images maintain aspect ratio */
+  height: auto; 
 }
 
 #movies .col-md-3 .well {
   margin-bottom: 20px;
-  height: auto; /* Allow height to adjust based on content */
+  height: auto;
 }
 
 #movies .col-md-3 .well h4 {
@@ -21,7 +21,7 @@
   text-overflow: ellipsis;
 }
 
-/* Add media queries for better responsiveness */
+
 @media (max-width: 768px) {
   #movies .col-md-3 {
     flex: 0 0 50%;
